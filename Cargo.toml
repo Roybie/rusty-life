@@ -1,0 +1,9 @@
+[package]
+name = "gol"
+version = "0.1.0"
+authors = ["Roy Brunton <notnurbyor@googlemail.com>"]
+
+[dependencies]
+rand = "*"
+sdl2 = "*"
+time = "*"
