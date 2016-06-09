@@ -49,7 +49,7 @@ fn main() {
 
         renderer.set_draw_color(Color::RGB(0, 0, 0));
         renderer.clear();
-        renderer.set_draw_color(Color::RGB(0, 0, 220));
+        renderer.set_draw_color(Color::RGB(255, 255, 255));
 
         let scale = grid.scale() as u32;
         for (i, cell) in grid.get_cells().into_iter().enumerate() {

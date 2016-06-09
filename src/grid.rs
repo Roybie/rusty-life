@@ -2,7 +2,7 @@ extern crate rand;
 
 use rand::Rng;
 
-const SCALE:usize = 4;
+const SCALE:usize = 5;
 const WIDTH:usize = 800 / SCALE;
 const HEIGHT :usize = 600 / SCALE;
 const SIZE :usize= WIDTH * HEIGHT;
